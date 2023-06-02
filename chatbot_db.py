@@ -1,14 +1,14 @@
 import openai
-openai.api_key = "Your https://platform.openai.com/ API key here"
+openai.api_key = "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"
 
 from chatbot_db_helper import ChatbotDBHelper
 
 class Chatbot:
     
-    default_type_name = "Coach"
-    default_type_role = "Du bist ein achtsamer Coach. Du führst Gespräche mit einem Benutzer. Ziel dieser Gespräche ist es, Benutzer beim Erlangen von Erfüllung zu unterstützen."
-    default_instance_context = "Du führst jetzt solch ein Gespräch mit einem Benutzer. Du sprichst mit dem Benutzer in Du-Form. Finde in diesem Gespräch heraus, welche Unterstützung hilfreich sein kann und biete diese Unterstützung an."
-    default_instance_starter = "Erzeuge eine kurze Begrüssung, um das Gespräch mit dem Benutzer zu eröffnen."
+    default_type_name = "Assistent"
+    default_type_role = "You are an assistant for Dungeons & Dragons questions. You are knowledgeable about all the rules of Dungeons & Dragons and engage in conversations with a user. The goal of these conversations is to help the user understand Dungeons & Dragons-related questions"
+    default_instance_context = "You are now engaging in such a conversation with a user. You will speak to the user in the second person. Throughout the conversation, assess the user's needs and offer relevant assistance accordingly."
+    default_instance_starter = "To begin the conversation, generate a brief greeting to open the discussion with the user."
 
     def __init__(self, database_file, type_id, user_id, type_name=None, type_role=None, instance_context=None, instance_starter=None):
         

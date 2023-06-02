@@ -8,6 +8,7 @@ function Session(type_id, user_id)  {
 
 $(document).ready(function() {
     session = session_from_url();
+    setSwitchButtonUrl();
     get_info();
     get_conversation();
     $("#user_says_input").keypress(function(event) {
@@ -16,7 +17,14 @@ $(document).ready(function() {
             user_says();
         }
     });
+    
+     $('#switch-button').click(function(e) {
+        e.preventDefault();
+        window.location.href = $(this).attr('href');
+    });
+    
 });
+
 
 function session_from_url() {
     let path = window.location.pathname;
@@ -183,3 +191,32 @@ function info(event)    {
     event.preventDefault();
     alert("Role\n" + session.role + "\nContext\n" + session.context);
 }
+
+function setSwitchButtonUrl() {
+    const path = window.location.pathname;
+    const path_elements = path.split("/");
+    const pathTypeId = path_elements[1];
+    const currentUserId = path_elements[2];
+
+    if (pathTypeId === 'create') {
+        // Disable switch buttons
+        $('#switch-button-1').addClass('disabled');
+        $('#switch-button-2').addClass('disabled');
+        $('#switch-button-3').addClass('disabled');
+    } else {
+        // Enable switch buttons and set correct URLs
+        const newHref1 = `https://${window.location.hostname}/${pathTypeId}/1/chat`;
+        const newHref2 = `https://${window.location.hostname}/${pathTypeId}/2/chat`;
+        const newHref3 = `https://${window.location.hostname}/${pathTypeId}/3/chat`;
+
+        $('#switch-button-1').removeClass('disabled').attr('href', currentUserId === '1' ? '' : newHref1);
+        $('#switch-button-2').removeClass('disabled').attr('href', currentUserId === '2' ? '' : newHref2);
+        $('#switch-button-3').removeClass('disabled').attr('href', currentUserId === '3' ? '' : newHref3);
+    }
+
+    // Always set the "switch page" button URL
+    const newSwitchHref = pathTypeId === 'create' ? `https://${window.location.hostname}/question/${currentUserId}/chat` : `https://${window.location.hostname}/create/${currentUserId}/chat`;
+    $('#switch-button').attr('href', newSwitchHref);
+}
+
+$(document).ready(setSwitchButtonUrl);
