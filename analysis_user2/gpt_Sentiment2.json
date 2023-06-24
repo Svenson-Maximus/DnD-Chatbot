@@ -1,0 +1,17 @@
+[
+    {
+      "topic": "NPCs",
+      "description": "Wanting 2 more",
+      "sentiment": 1
+    },
+    {
+      "topic": "Second NPC",
+      "description": "Should be evil",
+      "sentiment": -1
+    },
+    {
+      "topic": "NPC",
+      "description": "Boss of a clan",
+      "sentiment": 0
+    }
+  ]

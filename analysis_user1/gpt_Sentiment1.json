@@ -1,0 +1,23 @@
+[
+    {
+      "topic": "Concentration in spells",
+      "description": "Seeking understanding of the concept",
+      "sentiment": 0
+    },
+    {
+      "topic": "Casting multiple spells in a single turn",
+      "description": "Inquiry about game mechanics",
+      "sentiment": 0
+    },
+    {
+      "topic": "Two-weapon fighting",
+      "description": "Query about combat rules",
+      "sentiment": 0
+    },
+    {
+      "topic": "Grappling",
+      "description": "Question on grappling rules",
+      "sentiment": 0
+    }
+  ]
+  
