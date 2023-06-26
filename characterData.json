@@ -1,0 +1,34 @@
+{
+    "characters": [
+        {
+            "name": "Eliza the Enchanter",
+            "race": "Human",
+            "class": "Wizard",
+            "description": "Eliza is a lively and outgoing wizard who specializes in enchanting magical items. She has a friendly disposition and enjoys spending time with fellow wizards. Eliza stands at 5'7\" with an average build, long brown hair, and brown eyes. Her distinctive feature is a bright red cloak that she wears over her wizard's robes. She always carries a wand that she crafted herself as well as a bag of enchanted items. Eliza prides herself on her human heritage but wishes to learn more about the magical traditions of other races. Her key values and beliefs are innovation and experimentation, and she fears being misunderstood or ridiculed. Her desire is to create the ultimate magical item that will impress everyone at the wizard's guild. Eliza was born to a family of mediocre wizards and grew up in a remote village. Her family did not have much, but Eliza's curiosity and determination led her to become a skilled enchanter. Eliza now works as the head enchanter at the wizard's guild. Her socioeconomic status is that of a respected professional, but she is not wealthy. Eliza's voice is energetic and optimistic, and her sentences are often peppered with wizarding slang. She is friendly with other wizards and appreciates anyone who shares her love of magic. She doesn't have any specific rivals or enemies but is wary of anyone who doesn't take magic seriously. Eliza is a member of the wizard's guild, and her internal monologue usually focuses on how she can improve magical items or impress her colleagues."
+        },
+        {
+            "name": "Gronk the Goblin",
+            "race": "Goblin",
+            "class": "Rogue",
+            "description": "Gronk is a shrewd goblin rogue who is always looking for an angle and a quick score. He stands at 4'2\" and is lean and wiry with green skin, beady black eyes, and jagged teeth. His distinctive feature is a scar above his left eyebrow. He wears a black leather jacket with plenty of pockets for his various tools and weapons. Gronk values cunning and independence and fears being caught by the authorities. His desire is to accumulate enough wealth and notoriety to retire somewhere quiet. Gronk comes from a tribe of goblins who prize cunning and thievery above all else. He was always a quick learner, and after a few raids, he left the tribe to pursue his own agenda. Gronk's socioeconomic status is that of a successful thief, but he is always trying to move up in the world. Gronk's voice is guttural and gruff, and his sentences are terse and to the point. He has a small group of allies he trusts, but he doesn't have any lifelong friends. Gronk's biggest rival is another goblin thief vying for power in the underground world. He is not a member of any organization, but he has a reputation as a skilled thief and is respected by many in the underworld. Gronk's internal monologue usually focuses on how he can use his quick wit to get ahead or avoid danger."
+        },
+        {
+            "name": "Sariel the Sun Elf",
+            "race": "Elf",
+            "class": "Paladin",
+            "description": "Sariel is a devoted paladin who follows the path of the sun. She stands at 6'3\" and is slender but muscular with long golden hair and bright green eyes. She wears shining plate armor and is never seen without her sword and shield. Sariel's key values and beliefs are duty and honor, and she fears failure and betrayal. Her desire is to serve the sun god and rid the world of evil. Sariel comes from a long line of paladins who have served the sun god for generations. She was trained from a young age to be a warrior, and her dedication has never wavered. Sariel's socioeconomic status is that of a respected member of the paladin's guild. Her voice is clear and commanding, and her sentences are confident and straightforward. She has many allies in the paladin's guild and is respected by all who know her. Sariel has no known enemies, and her affiliation is with the paladin's guild. Her internal monologue usually focuses on how she can better serve her deity and how she can continue to uphold her family's legacy."
+        },
+        {
+            "name": "Krag the Kobold",
+            "race": "Kobold",
+            "class": "Druid",
+            "description": "Krag is a wily kobold druid who has a special affinity for insects and creepy crawlies. He stands at 3'7\" and is thin and agile with greyish-brown scales, big black eyes, and sharp claws. Krag wears a tattered green cloak and carries a staff made from a gnarled tree branch. He values nature and balance and fears destroying the delicate ecosystem. His desire is to protect all creatures great and small. Krag comes from a tribe of kobolds who have long lived in harmony with nature. He has always had a special connection to the insects and spiders of the forest and has honed his powers to be able to communicate with them. Krag's socioeconomic status is that of a humble druid who lives off the land. His voice is scratchy and high-pitched, and his sentences are often accompanied by strange clicks and chirps that he uses to communicate with his insect friends. Krag's only true allies are the insects and other small creatures he protects. He has no known enemies, and his affiliation is with nature itself. His internal monologue usually focuses on how he can better protect his charges and how he can bring balance back to the forest."
+        },
+        {
+            "name": "Horace the Halfling",
+            "race": "Halfling",
+            "class": "Bard",
+            "description": "Horace is a jovial halfling bard who loves telling tall tales and weaving stories that everyone wants to hear. He stands at 3'5\" with curly brown hair, twinkling brown eyes, and a roguish grin. Horace wears colorful clothing and carries a lute that he plays whenever inspiration strikes. He values creativity and humor and fears boredom and routine. His desire is to make people laugh and forget their troubles. Horace comes from a family of traveling performers and has been entertaining crowds since he was old enough to hold a lute. His natural charm and skill at storytelling have made him a favorite wherever he goes. Horace's socioeconomic status is that of a respected entertainer who lives off the coin he earns from his performances. His voice is melodic and warm, and his sentences are often peppered with song lyrics or clever puns. Horace has many friends in the entertainment industry and is loved by all. He has no enemies, and his affiliation is with any group or organization that values entertainment and creativity. His internal monologue usually focuses on how he can make the next performance even better and how he can continue to bring joy to people's lives."
+        }
+    ]
+}
