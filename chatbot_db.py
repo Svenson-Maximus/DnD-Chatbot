@@ -1,5 +1,12 @@
 import openai
-openai.api_key = "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"
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the API key from environment variables
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 from chatbot_db_helper import ChatbotDBHelper
 
