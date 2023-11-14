@@ -1,6 +1,6 @@
 # D&D Helper Chatbot 🐉
 
-A powerful chatbot designed to aid Dungeon Masters and players in their epic D&D adventures. Using OpenAI's `gpt-3.5-turbo` engine, our chatbot offers fast and dynamic responses to assist with rules, lore, and storytelling.
+A powerful chatbot designed to aid Dungeon Masters and players in their epic D&D adventures. Using OpenAI's `gpt-3.5-turbo` engine, my chatbot offers fast and dynamic responses to assist with rules, lore, and storytelling.
 
 ## Features
 
